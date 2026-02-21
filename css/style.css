@@ -36,21 +36,21 @@ footer {
 /*#bottom {
     border: 1px solid black; 
     padding: 10px; 
-}*/
+}
 
-.album_track_list {
+/*.album_track_list {
     display: flex;
 }
 
-.album_track_list img {
+/*.album_track_list img {
     width: 250px;
     height: 250px;
 }
 
-.album_track_list section {
+/*.album_track_list section {
     margin: 0;
     padding: 10px;
-}
+}*/
 
 @media (max-width: 600px) {
   body {
@@ -58,7 +58,8 @@ footer {
   }
 }
 
-.flex-container {
+/* flex containers are made obsolete by bootstrap*/
+/*.flex-container {
     display: flex;
     flex-wrap: nowrap;
     background-color: DodgerBlue;
@@ -78,4 +79,4 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-}
+}*/

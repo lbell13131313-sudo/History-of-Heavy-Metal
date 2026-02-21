@@ -20,12 +20,15 @@
         <h2>Heavy Metal in It's Infancy</h2>
 
         <!--implimented flexbox here to make it so the song titles display next to the album cover-->
+        <!--got rid of the flexbox for the less complicated bootstrap alignments-->
         <section class = "important">
           <p>Now comes it's birth. Heavy Metal truly became it's own thing once 1970 hit. It's birth was celebrated with the release of Black Sabbath's self-titled debut album on February 13th, 1970. Having one of the most iconic track lists of any album from the 70s.</p>
-          <div class = "album_track_list">
-            <img alt = "Black Sabbath's self-titled debut album cover" src = "images/blacksabbathdebut.webp" width = "20%" />
+          <div class = "row">
+            <section class="col-md-6 mb-2">
+              <img alt = "Black Sabbath's self-titled debut album cover" src = "images/blacksabbathdebut.webp" width = "50%" />
+            </section>
 
-            <section>
+            <section class="col-md-6 mb-2">
               <h3 class = "darkred">"Black Sabbath" by Black Sabbath (1970)</h3>
               <!--My example of an ordered list-->
               <ol>
