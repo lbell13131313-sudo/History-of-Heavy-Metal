@@ -32,10 +32,11 @@ footer {
     background-color: lightblue; 
 }
 
-#bottom {
+/*no longer need this*/
+/*#bottom {
     border: 1px solid black; 
     padding: 10px; 
-}
+}*/
 
 .album_track_list {
     display: flex;
